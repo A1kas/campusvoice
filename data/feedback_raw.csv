@@ -1,0 +1,301 @@
+review_id,course_code,course_name,department,language,review_text,intended_sentiment,intended_aspect
+R0001,CS201,Data Structures,Computer Science,zh,老师讲课清晰易懂，例题多，作业布置适中，助教很负责，每次讨论都很有帮助。,positive,teaching_style
+R0002,MATH240,Linear Algebra,Mathematics,zh,线性代数教材太陈旧了，作业和考试难度都太大，助教也总是很忙，很少解答问题。,negative,materials
+R0003,PHY101,General Physics I,Physics,en,"The textbook is a mess, with confusing diagrams and typos everywhere. It makes homework feel like a struggle.",negative,materials
+R0004,PHY101,General Physics I,Physics,en,"The exams were brutal and the grading seemed way too harsh, even for the homework that was supposed to be practice.",negative,exams_grading
+R0005,CS310,Operating Systems,Computer Science,zh,操作系统这门课内容太杂，作业多，考试难，助教水平参差不齐，学起来挺吃力的。,negative,course_content
+R0006,PHY101,General Physics I,Physics,zh,老师讲解很清晰，善于用生活实例解释物理原理，感觉上课很有趣。,positive,teaching_style
+R0007,CS201,Data Structures,Computer Science,en,"The provided lecture notes and slides were incredibly helpful. They made understanding complex concepts in Data Structures much easier. The readings were challenging but insightful, thanks to the clear explanations and examples.",positive,materials
+R0008,CS201,Data Structures,Computer Science,en,"The exams were a total pain, grading was inconsistent, and the TAs were never available for help.",negative,exams_grading
+R0009,CS330,Database Systems,Computer Science,zh,数据库系统课的作业量太大，考试也特别难，助教也不太负责，感觉压力山大，根本没时间做其他事情。,negative,workload
+R0010,BUS220,Introduction to Marketing,Business,en,"The exams were a nightmare. TAs were inconsistent and the grading was harsh, made it feel like we were failing just for trying.",negative,exams_grading
+R0011,ENG150,Academic Writing,English,zh,这门课的作业量挺大的，不过老师布置的作业很有针对性，让我学到了很多。助教也很耐心，解答问题很详细。,positive,workload
+R0012,ENG150,Academic Writing,English,en,"The exam grading was inconsistent and harsh, felt like it was more about the TA's mood than the quality of my work.",negative,exams_grading
+R0013,CS310,Operating Systems,Computer Science,en,The constant stream of homework and the TA's lack of availability made the course a real logistical nightmare. I barely had time to understand the material between assignments.,negative,logistics
+R0014,ENG150,Academic Writing,English,zh,这门课时间安排挺合理，作业量适中，助教也很有耐心，解答问题很到位。,positive,logistics
+R0015,PHY101,General Physics I,Physics,en,"The logistics were a nightmare – endless homework, exams were too hard, and the TA's were rarely available.",negative,logistics
+R0016,ENG150,Academic Writing,English,en,The workload was intense but manageable; the TA was supportive and made sure we were on track for the big paper deadline.,positive,workload
+R0017,CS310,Operating Systems,Computer Science,zh,这门课的考试评分很公正，老师批改作业也很认真，感觉作业量适中，考试难度合理，助教也很有耐心解答问题。,positive,exams_grading
+R0018,ENG150,Academic Writing,English,en,"The reading materials were too dense and didn't cover essential points, made the homework almost impossible.",negative,materials
+R0019,CS420,Machine Learning,Computer Science,zh,这门机器学习的课教材太老了，习题难度大，助教水平也不咋地，感觉学不到什么新东西。,negative,materials
+R0020,CS310,Operating Systems,Computer Science,zh,老师准备的教材很全，每章的作业都挺有深度，助教也很有耐心解答问题。,positive,materials
+R0021,CS420,Machine Learning,Computer Science,zh,这门机器学习的课内容挺丰富的，作业虽然不少，但都挺有意思的，助教也很耐心，解答问题很详细。,positive,course_content
+R0022,ENG150,Academic Writing,English,zh,教材太老了，好多案例都过时了，做作业特别累，感觉学不到啥有用的东西。助教也不太懂，经常回答错问题。,negative,materials
+R0023,ENG150,Academic Writing,English,en,"This course is a nightmare. Assignments pile up faster than I can keep up, and the exams are so difficult, even the TAs can't help much.",negative,workload
+R0024,BUS220,Introduction to Marketing,Business,en,The readings were outdated and the slides didn't match the content. Homework assignments felt like busy work with no real connection to marketing.,negative,materials
+R0025,ENG150,Academic Writing,English,en,Absolutely overwhelming. Every week felt like I was drowning in assignments and the TA barely knew the material themselves. I barely had time to breathe.,negative,workload
+R0026,CS310,Operating Systems,Computer Science,en,Professor Smith's teaching style is really engaging. He breaks down complex concepts with examples that make sense.,positive,teaching_style
+R0027,BUS220,Introduction to Marketing,Business,zh,这学期的市场营销课资料真的很全，PPT讲解得也很清楚，感觉收获挺多的。作业不算多，难度适中，助教答疑也很耐心，总体来说很满意。,positive,materials
+R0028,MATH240,Linear Algebra,Mathematics,en,"The exams were fair, but grading was inconsistent among TAs; some felt too strict on minor mistakes.",neutral,exams_grading
+R0029,CS330,Database Systems,Computer Science,en,The readings and videos were really helpful; they gave me a strong foundation to tackle the complex assignments. The TAs were also really supportive and clarified doubts in a timely manner.,positive,materials
+R0030,MATH240,Linear Algebra,Mathematics,en,"The homework load in Linear Algebra was absolutely overwhelming. I spent 12 hours a week on just the homework assignments, and the midterm was a real challenge. The TA's help was inconsistent, too.",negative,workload
+R0031,BUS220,Introduction to Marketing,Business,zh,营销课老师讲得不清不楚，作业太多，助教也不太懂，感觉白上了这课。,negative,instructor
+R0032,PHY101,General Physics I,Physics,en,"The textbooks were so confusing and out of date, it felt like we were learning from the Stone Age. The homework was a nightmare with no clear explanations.",negative,materials
+R0033,CS330,Database Systems,Computer Science,en,"The exams were fair, and the grading was consistent. The TA explained the feedback well after each test.",positive,exams_grading
+R0034,ENG150,Academic Writing,English,zh,这门课的作业量太大了，而且助教回复速度慢，考试题目也太难，感觉压力很大。,negative,logistics
+R0035,CS201,Data Structures,Computer Science,en,"The instructor's teaching style was really off-putting, barely explained the concepts, and the TA was almost never available for help with homework.",negative,instructor
+R0036,PHY101,General Physics I,Physics,en,"The exams were way too difficult, and the grading was inconsistent. One week I got a B for a perfect score, and the next I barely passed with a C+.",negative,exams_grading
+R0037,MATH240,Linear Algebra,Mathematics,en,"Homework assignments piled up, and the TA was almost never available for help. Midterms were a disaster.",negative,logistics
+R0038,CS330,Database Systems,Computer Science,zh,数据库教材很全面，习题量适中，让我对数据库有了更深的理解。助教也很负责，解答问题很耐心。,positive,materials
+R0039,PHY101,General Physics I,Physics,en,The instructor was really unprepared and had a tough time explaining complex concepts. TAs were barely helpful too.,negative,instructor
+R0040,CS330,Database Systems,Computer Science,zh,考试太复杂了，判卷太宽松，感觉评分有失公允，助教也不怎么解答问题。,negative,exams_grading
+R0041,CS310,Operating Systems,Computer Science,zh,张老师讲得真好，讲解清晰，作业量适中，助教也很有耐心，让我对操作系统有了更深的理解。,positive,instructor
+R0042,CS310,Operating Systems,Computer Science,zh,这门操作系统的课，作业挺多，不过难度适中，助教也很有耐心。虽然有时候挺累的，但学到挺多东西的。,positive,workload
+R0043,BUS220,Introduction to Marketing,Business,en,Prof. Johnson's engaging lectures made the marketing concepts click. Her clear examples and relatable anecdotes kept the class interested.,positive,teaching_style
+R0044,CS310,Operating Systems,Computer Science,en,"The lectures were quite informative, but the homework assignments felt a bit overwhelming with the volume and complexity. The exam was challenging, but not impossible. The teaching assistant was helpful, albeit a bit disorganized.",neutral,course_content
+R0045,CS310,Operating Systems,Computer Science,en,"The constant flow of assignments and exams was overwhelming, especially with the TA's lack of availability. It felt like the course was trying to pack in too much in a short semester.",negative,logistics
+R0046,PHY101,General Physics I,Physics,en,"The teaching style was way too lecture heavy, Professor Smith's monotone voice made it hard to pay attention. Plus, the TA was never available for help with the dense homework problems.",negative,teaching_style
+R0047,ENG150,Academic Writing,English,en,"The exam was challenging, but the feedback from the TAs was decent; they didn't provide much detail, though.",neutral,exams_grading
+R0048,CS201,Data Structures,Computer Science,zh,数据结构课程的资料太乱了，讲义和课件都看不懂，感觉像是自己找资料学，老师讲得也不清楚，作业又多，考试还特别难，真心不适合我们这些小白。,negative,materials
+R0049,CS420,Machine Learning,Computer Science,zh,老师上课挺有条理的，但感觉讲解深度不够，作业挺多的，有时候小组讨论时间不够用。助教答疑也很认真，就是人有点少。,neutral,teaching_style
+R0050,CS330,Database Systems,Computer Science,en,"Homework was overwhelming, exams were impossible, and the TA was never available to help. Just exhausting.",negative,workload
+R0051,ENG150,Academic Writing,English,en,"The instructor for Academic Writing was very clear in their instructions, but sometimes the feedback on essays took a while to come through.",neutral,instructor
+R0052,CS330,Database Systems,Computer Science,en,"Prof teaches through lectures and slides but sometimes the pacing can feel slow and a bit monotonous. TA helps, but the homework is definitely a beast.",neutral,teaching_style
+R0053,ENG150,Academic Writing,English,en,"The course schedule was a bit tight, but the TA was pretty responsive to questions. I just wish there were more break times between assignments.",neutral,logistics
+R0054,PHY101,General Physics I,Physics,en,"The exams were fair, but the grading was inconsistent. Some TAs were more generous than others.",neutral,exams_grading
+R0055,CS420,Machine Learning,Computer Science,en,"The content was dense and covered a lot of topics, but the readings were a bit overwhelming. The homework load was high, but the exams were fair.",neutral,course_content
+R0056,BUS220,Introduction to Marketing,Business,en,"The reading materials were a bit dense for a first-year course, but the textbook was helpful. I wish the readings were more concise and the weekly assignments were less time-consuming.",neutral,materials
+R0057,CS201,Data Structures,Computer Science,en,"The study materials were super helpful, with clear examples and explanations. The online forums were also a great resource for extra help.",positive,materials
+R0058,PHY101,General Physics I,Physics,en,The workload was unbearable. Homework was a constant flood and exams were way too hard. TA's were barely available to help.,negative,workload
+R0059,CS330,Database Systems,Computer Science,zh,作业量适中，考试不难，助教答疑及时，课程安排得挺合理的。,positive,logistics
+R0060,CS310,Operating Systems,Computer Science,en,"The textbooks are outdated and the supplementary materials are sparse, making it hard to prepare for the exams with the heavy homework load.",negative,materials
+R0061,PHY101,General Physics I,Physics,en,"The instructor's delivery was really dry, and the TAs were hit or miss on helping with homework. Exams were a nightmare!",negative,instructor
+R0062,ENG150,Academic Writing,English,zh,这门学术写作课内容丰富，案例分析到位，让我对论文写作有了更深的理解。作业量适中，助教答疑很耐心，收获满满。,positive,course_content
+R0063,BUS220,Introduction to Marketing,Business,en,Prof. Smith's teaching style was awesome. She made concepts so clear with her engaging lectures and case studies. Never thought marketing could be this fun!,positive,teaching_style
+R0064,ENG150,Academic Writing,English,en,The workload was just right; the assignments helped me improve my skills without overwhelming me.,positive,workload
+R0065,BUS220,Introduction to Marketing,Business,zh,市场营销课程内容挺全面的，但作业挺多，考试难度也不小，助教解答问题挺耐心。,neutral,course_content
+R0066,MATH240,Linear Algebra,Mathematics,zh,线性代数的老师上课讲得不清，作业又多又难，助教也没办法解释清楚，真是头疼。,negative,instructor
+R0067,PHY101,General Physics I,Physics,zh,高斯定律和电磁场部分讲解得很清楚，作业题量适中，难度也不高，学起来挺有意思的。,positive,course_content
+R0068,MATH240,Linear Algebra,Mathematics,en,"The workload was intense but manageable, with the TA providing great support during office hours. I didn't dread the homework or exams!",positive,workload
+R0069,MATH240,Linear Algebra,Mathematics,en,"The exams were definitely challenging, but I feel like the grading was fair considering the complexity of the subject. The TAs did a good job with the review sessions, but the homework load got intense towards the end of the semester.",neutral,exams_grading
+R0070,CS201,Data Structures,Computer Science,en,"The course covered a wide range of data structures, but the homework was quite challenging, and some assignments seemed more like research projects than typical coursework. The exams were definitely tough, but they tested our understanding well.",neutral,course_content
+R0071,CS420,Machine Learning,Computer Science,en,"The readings are too dense, and the online materials are a mess. It's hard to follow along, especially for beginners like me.",negative,materials
+R0072,CS201,Data Structures,Computer Science,en,Professor Smith's lectures are clear but the homework load is pretty heavy. TA's aren't the best at explaining concepts.,neutral,instructor
+R0073,CS310,Operating Systems,Computer Science,en,"The Operating Systems course covered the basics well, but the homework load got a bit heavy towards the end. The exam questions were tricky, but the TA helped clarify some concepts during office hours.",neutral,course_content
+R0074,CS310,Operating Systems,Computer Science,zh,操作系统课程内容过于陈旧，作业和考试难度都很大，助教讲解也不太清楚，学起来很吃力。,negative,course_content
+R0075,CS310,Operating Systems,Computer Science,zh,操作系统考试题目挺多的，感觉难度适中，但评分比较严格，平时作业有点多，助教批改作业速度一般。,neutral,exams_grading
+R0076,ENG150,Academic Writing,English,zh,作业挺多的，考试难度适中，助教解答耐心。,neutral,workload
+R0077,MATH240,Linear Algebra,Mathematics,en,"Dr. Smith was amazing! She made the abstract concepts feel real, and her office hours were super helpful.",positive,instructor
+R0078,CS420,Machine Learning,Computer Science,en,"Dr. Thompson's teaching style was super clear, he made complex concepts super easy to grasp. TAs were also on point with their office hours.",positive,instructor
+R0079,CS310,Operating Systems,Computer Science,zh,这门操作系统课的内容真的很有深度，每周的作业虽然不少，但都能学到实用的知识，老师出的题也不容易，但学完后挺有成就感的。助教人也挺好的，经常答疑解惑。,positive,course_content
+R0080,BUS220,Introduction to Marketing,Business,en,"The course schedule was really well-organized and the TA was always on time for office hours, which made it easier to catch up on missed material.",positive,logistics
+R0081,MATH240,Linear Algebra,Mathematics,en,"The TA made sure the exams were fair and the grading was consistent, even though the homework load was heavy.",positive,exams_grading
+R0082,CS201,Data Structures,Computer Science,zh,数据结构课挺有意思的，作业和考试难度适中，助教也很有耐心，讲的内容挺实用的，学到了不少东西。,positive,course_content
+R0083,PHY101,General Physics I,Physics,zh,考试难度适中，评分比较公平，但作业量有点大，助教批改作业速度较慢。,neutral,exams_grading
+R0084,CS310,Operating Systems,Computer Science,en,The Operating Systems lectures were a real struggle. The material was dense and the homework assignments were relentless. The TA's explanations felt like a foreign language sometimes.,negative,course_content
+R0085,CS201,Data Structures,Computer Science,zh,老师上课内容太枯燥，布置的作业又多，助教也没法及时解答问题，感觉学不到什么。,negative,instructor
+R0086,CS310,Operating Systems,Computer Science,en,"The reading assignments are comprehensive but a bit dense for beginners. The textbook's examples are helpful though, especially when working on the lab assignments.",neutral,materials
+R0087,CS201,Data Structures,Computer Science,en,"The exams were fair, but the grading was inconsistent. Some TAs were really helpful, others didn't explain much.",neutral,exams_grading
+R0088,ENG150,Academic Writing,English,zh,老师挺认真的，但作业量挺大的，助教帮忙解答问题也不太及时。,neutral,instructor
+R0089,CS420,Machine Learning,Computer Science,zh,老师发的讲义和PPT很全，例题解析得也很清楚，自学起来挺轻松的，作业也不多，感觉收获很大。,positive,materials
+R0090,CS310,Operating Systems,Computer Science,en,"The readings were really helpful, and the lecture slides were well-organized. I learned a ton from the textbook and online resources too!",positive,materials
+R0091,PHY101,General Physics I,Physics,en,Professor Smith's teaching style was engaging and made complex concepts understandable. The way he explained things in class made the homework less daunting.,positive,teaching_style
+R0092,MATH240,Linear Algebra,Mathematics,en,Dr. Thompson was a fantastic instructor. She made the complex concepts of linear algebra feel manageable with her clear explanations and engaging lectures.,positive,instructor
+R0093,MATH240,Linear Algebra,Mathematics,zh,线性代数的老师讲课太死板，公式堆砌，作业太多，助教解答也不太清楚，很难跟上进度。,negative,teaching_style
+R0094,CS201,Data Structures,Computer Science,en,"The Data Structures course was quite demanding, with weekly homework and one big project. The workload was heavy but manageable.",neutral,workload
+R0095,CS420,Machine Learning,Computer Science,en,"The lecture notes were sparse and homework was way too intense, plus the TA was a real drag. Hard to keep up with everything.",negative,materials
+R0096,MATH240,Linear Algebra,Mathematics,zh,老师准备的讲义很全，每次课后我都会复习一遍。作业挺多的，不过都很有帮助。助教解答问题很耐心，很感谢他们的帮助！,positive,materials
+R0097,ENG150,Academic Writing,English,zh,这门课的老师挺有经验的，讲解清晰，但作业有点多，助教批改速度也不快。,neutral,instructor
+R0098,PHY101,General Physics I,Physics,en,Homework piles up and the exams are too tough. TAs barely help in office hours.,negative,logistics
+R0099,MATH240,Linear Algebra,Mathematics,zh,这次期中考试挺难的，不过感觉作业量也不小，助教倒是挺负责的，成绩给得挺公道的。,neutral,exams_grading
+R0100,CS420,Machine Learning,Computer Science,en,"The workload was intense, but the problem sets were well-designed and the TA was super helpful. I learned a lot!",positive,workload
+R0101,BUS220,Introduction to Marketing,Business,en,The instructor for Intro to Marketing was so disorganized that even the TA struggled to follow along. Their exams were impossible and the homework load was a killer!,negative,instructor
+R0102,BUS220,Introduction to Marketing,Business,zh,课本资料很全，案例丰富，每周末的作业也不多，学起来挺轻松的。助教讲解得很详细，有问题都能解答。,positive,materials
+R0103,ENG150,Academic Writing,English,en,"The homework load was relentless, and the TA's help was minimal. I barely had time to breathe, let alone write well.",negative,workload
+R0104,PHY101,General Physics I,Physics,en,"The course content was way too dense; the homework assignments felt like a full-time job, and the exams were almost impossible. The TA was also not very helpful.",negative,course_content
+R0105,MATH240,Linear Algebra,Mathematics,zh,老师讲得挺有意思的，上课节奏不快，作业也不多，感觉学得挺轻松的。助教解答问题也很耐心。,positive,teaching_style
+R0106,CS310,Operating Systems,Computer Science,en,Absolutely overwhelmed with the massive homework load and disorganized exams. TAs were rarely around to help.,negative,logistics
+R0107,CS420,Machine Learning,Computer Science,en,The lectures were always at a convenient time and the TAs were really helpful with the homework and office hours.,positive,logistics
+R0108,PHY101,General Physics I,Physics,zh,考试挺难的，但评分挺公正的，感觉TA很用心，批改很认真，作业量也不算多，能学到东西。,positive,exams_grading
+R0109,CS201,Data Structures,Computer Science,en,"The weekly homework load was manageable, but the exams were surprisingly challenging. TA was helpful when you caught them in office hours.",neutral,logistics
+R0110,CS310,Operating Systems,Computer Science,zh,操作系统课程内容丰富，深入浅出，作业量适中，难度适中，助教解答问题很耐心，学到了很多实用知识。,positive,course_content
+R0111,CS201,Data Structures,Computer Science,zh,这次数据结构的考试难度太大，感觉评分太严了，作业量也太大，助教也不怎么解释，感觉学不到东西。,negative,exams_grading
+R0112,CS420,Machine Learning,Computer Science,en,"The course content was really engaging, with a good mix of theory and practical examples. The homework assignments were challenging but manageable, and the TA was super helpful with office hours.",positive,course_content
+R0113,BUS220,Introduction to Marketing,Business,zh,老师讲得挺清楚，不过例题和实际应用结合得不够紧密，做作业和考试时还是觉得有点难。助教帮忙挺多的，但有时答疑效率不高。,neutral,teaching_style
+R0114,CS420,Machine Learning,Computer Science,en,"The workload was pretty heavy with weekly assignments and projects, but the TAs were helpful, especially during office hours.",neutral,workload
+R0115,CS310,Operating Systems,Computer Science,en,The readings and lecture slides were super helpful. The homework assignments were challenging but well-aligned with the material.,positive,materials
+R0116,CS420,Machine Learning,Computer Science,en,"The lectures were always on time and the TA was really helpful, even though the homework load was intense sometimes.",positive,logistics
+R0117,CS420,Machine Learning,Computer Science,en,Dr. Smith’s teaching style is really engaging. She makes complex concepts feel like a breeze and the weekly labs are so practical.,positive,teaching_style
+R0118,CS330,Database Systems,Computer Science,en,"Dr. Smith's teaching style is amazing; he breaks down complex concepts with clear examples and makes class discussions engaging. His homework assignments were challenging but fair, and the TA was always helpful during office hours.",positive,teaching_style
+R0119,PHY101,General Physics I,Physics,en,The logistics were surprisingly smooth; the TA was always available for office hours and the homework schedule was manageable.,positive,logistics
+R0120,MATH240,Linear Algebra,Mathematics,en,"The homework load was just relentless, exams were a nightmare, and the TA seemed clueless. Hard to keep up.",negative,workload
+R0121,CS310,Operating Systems,Computer Science,zh,老师上课讲解挺清晰，但是布置的作业有点多，助教批改速度一般。,neutral,teaching_style
+R0122,BUS220,Introduction to Marketing,Business,en,"The marketing materials were outdated, and the homework assignments were a real pain. The TA's help was hit or miss.",negative,materials
+R0123,MATH240,Linear Algebra,Mathematics,en,"Homework was a beast, exams were even worse, and the TA barely responded to questions. I spent every night on this course.",negative,workload
+R0124,CS330,Database Systems,Computer Science,zh,老师的讲课方式太死板了，老爱念PPT，作业和考试压力太大，助教也没啥帮助。,negative,teaching_style
+R0125,ENG150,Academic Writing,English,en,"The reading materials were a mess, constantly changing and confusing. Half the time, I couldn't even find the assignments because they weren't labeled properly.",negative,materials
+R0126,CS330,Database Systems,Computer Science,en,"Dr. Thompson's passion for databases is contagious. The weekly lectures were always engaging, and the TA was super helpful with the homework and project questions.",positive,instructor
+R0127,PHY101,General Physics I,Physics,zh,老师上课很认真，讲解清晰，但作业量有点多，助教答疑质量一般。,neutral,instructor
+R0128,BUS220,Introduction to Marketing,Business,zh,老师上课风格很生动，案例丰富，让我对市场营销有了更深的理解。作业不算多，但挺有挑战性，助教也很有耐心解答问题。,positive,teaching_style
+R0129,CS330,Database Systems,Computer Science,en,The database systems course was comprehensive but the homework was quite challenging. TAs were helpful during office hours.,neutral,course_content
+R0130,BUS220,Introduction to Marketing,Business,en,The lectures on digital marketing were so fresh and the case studies were super relevant. Homework wasn't too tough; it helped me apply the theories.,positive,course_content
+R0131,CS201,Data Structures,Computer Science,zh,这门课的作业量挺大的，但我觉得挺充实的。考试虽然有点难，但助教很负责，经常解答疑问。,positive,workload
+R0132,CS310,Operating Systems,Computer Science,zh,考试挺有挑战性的，评分标准明确，TA帮忙答疑也很到位，感觉学到了不少东西。,positive,exams_grading
+R0133,MATH240,Linear Algebra,Mathematics,en,"Dr. Thompson's lectures were engaging and well-structured, making complex concepts feel manageable. The TA was always helpful and patient during office hours.",positive,teaching_style
+R0134,BUS220,Introduction to Marketing,Business,zh,这课程内容挺有意思的，老师讲解得挺细的，作业也不算多，就是考试难度有点挑战，但助教帮忙挺多的，学到了不少营销知识。,positive,course_content
+R0135,MATH240,Linear Algebra,Mathematics,en,"The course content was overly theoretical and lacked practical applications, making the heavy homework load and tricky exams feel like a drag.",negative,course_content
+R0136,PHY101,General Physics I,Physics,en,"The exams were fair, but the grading was inconsistent. Some TAs were stricter than others.",neutral,exams_grading
+R0137,CS330,Database Systems,Computer Science,zh,考试难度适中，评分公正，老师批改认真，感觉收获挺大的。助教也很负责，答疑很及时，作业量不算太多，学到了不少东西。,positive,exams_grading
+R0138,CS420,Machine Learning,Computer Science,en,"Too much homework every week, exams were so hard, and TAs were unhelpful. Classes are always late, making the whole course stressful.",negative,logistics
+R0139,MATH240,Linear Algebra,Mathematics,zh,教材内容挺丰富的，但作业挺多的，助教答疑挺及时，不过考试难度感觉有点大。,neutral,materials
+R0140,CS201,Data Structures,Computer Science,zh,老师上课太无聊，讲得也不够清楚，作业太多，考试还特别难，助教帮忙也不多，失望了。,negative,teaching_style
+R0141,ENG150,Academic Writing,English,en,"The reading list was outdated, and the assignments were a constant struggle. The TA's feedback was almost non-existent.",negative,course_content
+R0142,ENG150,Academic Writing,English,en,"The exams were a nightmare; grading was inconsistent, and the TA was never available for help.",negative,exams_grading
+R0143,BUS220,Introduction to Marketing,Business,en,"The homework load was a bit heavy, and the TA's feedback was a bit late. But, the lectures were consistent and the classroom setup was pretty good.",neutral,logistics
+R0144,CS310,Operating Systems,Computer Science,zh,操作系统考试的评分太主观了，感觉像是猜题，助教批改作业也太宽松了，感觉根本没学到什么。,negative,exams_grading
+R0145,ENG150,Academic Writing,English,en,The assignments were challenging but well-structured. I learned a lot about crafting clear arguments.,positive,course_content
+R0146,BUS220,Introduction to Marketing,Business,en,"The course content was way too theoretical and didn't align with real-world scenarios. Homework load was brutal, and exams were too hard. TA was never around for help.",negative,course_content
+R0147,ENG150,Academic Writing,English,zh,学术写作的内容太陈旧，作业太多，考试又难，助教也不太帮忙。,negative,course_content
+R0148,PHY101,General Physics I,Physics,en,The homework was a bit intense but the exams were manageable. The TA was really helpful in office hours!,positive,workload
+R0149,BUS220,Introduction to Marketing,Business,en,"Professor Smith's engaging lectures made the material come alive. They were well-prepared and really knew the subject inside out. Plus, the TA was super helpful during office hours!",positive,instructor
+R0150,CS310,Operating Systems,Computer Science,en,"The course content on Operating Systems was thorough but the homework assignments felt a bit excessive for the material covered. Some TAs were quite helpful, but the exams were definitely challenging.",neutral,course_content
+R0151,BUS220,Introduction to Marketing,Business,en,The prof's teaching style was really dry and monotonous. I felt like I was just listening to a robot read from a book the whole time.,negative,teaching_style
+R0152,PHY101,General Physics I,Physics,en,"The workload was heavy, but the exams were fair. The TA was helpful, but the office hours were limited.",neutral,logistics
+R0153,CS310,Operating Systems,Computer Science,en,"Absolutely swamped with the homework every week and the exams were so tough, the TAs barely helped when we asked. Just a massive workload from start to finish.",negative,workload
+R0154,CS420,Machine Learning,Computer Science,en,"The exams were challenging but fair, and the TAs were generally helpful. The grading seemed consistent, though the homework load was heavier than expected.",neutral,exams_grading
+R0155,CS310,Operating Systems,Computer Science,en,"OMG, the amount of homework was relentless! Exams were tricky, and the TAs barely helped. It was overwhelming.",negative,workload
+R0156,ENG150,Academic Writing,English,zh,这门课的作业挺多，考试难度一般，助教也还算负责，但有时候答疑时间比较紧张。,neutral,logistics
+R0157,CS420,Machine Learning,Computer Science,zh,老师讲解清晰，作业量适中，助教也很认真负责，感觉收获很大。,positive,instructor
+R0158,ENG150,Academic Writing,English,zh,期末考试挺难的，作业量也很大，助教解答问题挺耐心，但是评分标准感觉不是很统一。,neutral,exams_grading
+R0159,MATH240,Linear Algebra,Mathematics,en,"The course materials were well-organized but could've included more examples. Homework was manageable, though the first few were a bit tricky.",neutral,materials
+R0160,CS310,Operating Systems,Computer Science,en,"The textbooks were clear and well-structured, helped a lot with understanding the material, and the supplementary slides were super helpful during review sessions.",positive,materials
+R0161,BUS220,Introduction to Marketing,Business,en,"The reading list was so outdated and the slides were full of typos. It was like learning from a second-hand book. Plus, the homework load was absurd!",negative,materials
+R0162,BUS220,Introduction to Marketing,Business,en,"The reading list was so outdated, it was like reading a textbook from the '90s. Homework felt endless with all the case studies and quizzes.",negative,materials
+R0163,PHY101,General Physics I,Physics,zh,教材太老了，例题太少，做作业时经常找不到合适的参考。助教解答问题也不太耐心。,negative,materials
+R0164,CS201,Data Structures,Computer Science,en,The textbooks were super helpful and the online resources were always up-to-date. Homework felt challenging but well-paced.,positive,materials
+R0165,BUS220,Introduction to Marketing,Business,zh,这学期的营销入门课资料很丰富，案例分析很实用，作业量适中，老师给的复习资料也很有帮助。,positive,materials
+R0166,PHY101,General Physics I,Physics,zh,考试难度适中，评分公平，感觉教授和助教都很认真负责，虽然作业有点多，但收获很大。,positive,exams_grading
+R0167,ENG150,Academic Writing,English,zh,作业堆成山，考试难度太大，助教态度还不好，这门课的安排真是混乱得要命。,negative,logistics
+R0168,CS420,Machine Learning,Computer Science,en,The machine learning lectures were super engaging. I loved the hands-on projects that made the material stick.,positive,course_content
+R0169,CS420,Machine Learning,Computer Science,zh,老师讲课很清晰，布置的作业量适中，助教也很有耐心，让我对机器学习有了更深的理解。,positive,instructor
+R0170,CS330,Database Systems,Computer Science,en,The instructor was really hard to understand and their expectations were unclear. Grading was also way too strict for the homework and exams.,negative,instructor
+R0171,CS420,Machine Learning,Computer Science,en,The readings and video lectures were clear and concise. The TA's notes were incredibly helpful during the homework problems.,positive,materials
+R0172,CS201,Data Structures,Computer Science,en,"The schedule was a bit tight with late-night lectures, but the TA's office hours were super helpful for homework problems.",positive,logistics
+R0173,CS310,Operating Systems,Computer Science,zh,操作系统这门课内容丰富，深入浅出，作业和考试难度适中，助教解答问题很耐心，学到了很多实用知识。,positive,course_content
+R0174,CS330,Database Systems,Computer Science,en,"The exams were a nightmare, with impossible questions and grading was so inconsistent it felt like a lottery. The TA barely knew the material themselves.",negative,exams_grading
+R0175,CS330,Database Systems,Computer Science,en,Dr. Smith's passion for the subject made the material more engaging. He was always available for office hours and his feedback on assignments was super helpful.,positive,instructor
+R0176,MATH240,Linear Algebra,Mathematics,en,The textbooks were confusing and the online resources were scarce. Homework felt like a never-ending maze with no clear path.,negative,materials
+R0177,MATH240,Linear Algebra,Mathematics,en,"The professor's clear explanations made it easy to follow. The TA was really helpful, and the homework was a good balance of challenge and support.",positive,logistics
+R0178,ENG150,Academic Writing,English,en,"The workload was manageable, with a mix of essays and readings. The TA was really helpful and always available for questions.",positive,workload
+R0179,MATH240,Linear Algebra,Mathematics,zh,这学期的线性代数课，教材和讲义都很详细，老师布置的作业也很有帮助，复习起来很轻松。助教也很耐心，答疑很及时。,positive,materials
+R0180,CS420,Machine Learning,Computer Science,en,"The course content was dense and covered a lot of ground, but some topics felt rushed. Homework assignments were manageable, but the final exam was challenging.",neutral,course_content
+R0181,MATH240,Linear Algebra,Mathematics,zh,这次线性代数的考试评分很合理，作业量适中，助教也很耐心，感觉学到了很多。,positive,exams_grading
+R0182,CS420,Machine Learning,Computer Science,en,Absolutely swamped with homework and the final exam was a beast. TA's were barely helpful. Just way too much work for the credit.,negative,workload
+R0183,CS310,Operating Systems,Computer Science,en,"The instructor for this Operating Systems class is a disaster. They're disorganized, the homework is never explained, and the TAs are no help.",negative,instructor
+R0184,ENG150,Academic Writing,English,en,"The workload was overwhelming, with endless homework and a brutal final exam. The TAs were often unresponsive to questions.",negative,logistics
+R0185,ENG150,Academic Writing,English,zh,这门课作业挺多的，每次考试前都很紧张。助教的态度还可以，就是批改作业的速度慢了点。,neutral,logistics
+R0186,MATH240,Linear Algebra,Mathematics,en,"The course content was overwhelming, with too many abstract concepts and the homework load was intense. I barely understood the material by the end of the semester.",negative,course_content
+R0187,CS420,Machine Learning,Computer Science,en,"The exams were fair, and the grading was consistent across all questions. My TA, Jenny, always provided helpful explanations.",positive,exams_grading
+R0188,CS201,Data Structures,Computer Science,en,The study guides and lecture notes for this 'Data Structures' course were really helpful. Even the tough assignments were easier to tackle after going through them.,positive,materials
+R0189,CS330,Database Systems,Computer Science,en,"The assignments really challenged me, but the lectures were so clear that I never felt lost. The TA was super helpful, too!",positive,course_content
+R0190,PHY101,General Physics I,Physics,en,"The exams were a mix of challenging and fair, but the TA's feedback was inconsistent.",neutral,exams_grading
+R0191,MATH240,Linear Algebra,Mathematics,en,"The exams were fair, but I felt the grading was a bit inconsistent. Some questions were unclear, and the TA's feedback on the final was less helpful than the midterms.",neutral,exams_grading
+R0192,MATH240,Linear Algebra,Mathematics,en,"The instructor was really disengaged, barely explained the material, and the TAs were no help. Homework was overwhelming with no real feedback.",negative,instructor
+R0193,BUS220,Introduction to Marketing,Business,en,"The workload was pretty heavy with weekly readings and constant projects, but the TA's feedback was helpful.",neutral,workload
+R0194,PHY101,General Physics I,Physics,en,"I really appreciated the way the exams were structured; they tested what we learned, not just memorization. The TAs were very thorough and their grading was fair, even on the tough multiple choice questions.",positive,exams_grading
+R0195,CS420,Machine Learning,Computer Science,en,The instructor was knowledgeable but the office hours were too few and the TAs didn't always understand the material.,neutral,instructor
+R0196,BUS220,Introduction to Marketing,Business,en,"Professor Smith really knows their stuff, made class engaging with real-world examples and was always available after hours.",positive,instructor
+R0197,BUS220,Introduction to Marketing,Business,zh,市场营销课挺有意思的，作业挺多的，不过都挺有意思的，考试也还行，助教人也不错，挺能帮忙的。,positive,workload
+R0198,ENG150,Academic Writing,English,en,I really liked the variety in the assignments and the focus on practical examples. The readings were challenging but well-selected.,positive,course_content
+R0199,CS310,Operating Systems,Computer Science,zh,作业量挺大，每次考试复习都挺紧张的，助教答疑倒是挺耐心，不过时间不太够用。,neutral,workload
+R0200,MATH240,Linear Algebra,Mathematics,en,"The workload was manageable, with just the right amount of homework to reinforce the concepts. The exams were challenging but fair, and the TA was really helpful in office hours.",positive,workload
+R0201,ENG150,Academic Writing,English,en,"The schedule was manageable, and the TAs were really helpful with the heavy homework load.",positive,logistics
+R0202,CS201,Data Structures,Computer Science,zh,老师讲课太枯燥了，总是照本宣科，作业和考试难度都很大，助教也帮不上什么忙，感觉学不到什么东西。,negative,teaching_style
+R0203,CS420,Machine Learning,Computer Science,zh,机器学习这门课的材料非常丰富，讲义和案例都很实用，特别是那个Python库的讲解，让我对机器学习有了更深的理解。作业量适中，难度也适中，感觉收获颇丰。,positive,materials
+R0204,CS420,Machine Learning,Computer Science,en,The final exam felt fair with a mix of questions covering the core concepts. TAs were really helpful in explaining tricky parts of the grading rubric.,positive,exams_grading
+R0205,CS201,Data Structures,Computer Science,en,"The course covered essential data structures, but the homework was quite extensive and the exams were challenging. The TA was helpful but sometimes busy.",neutral,course_content
+R0206,ENG150,Academic Writing,English,zh,这学期的写作课，作业多到让人崩溃，考试难度也超高，助教态度还差，真想给它个大大的差评。,negative,logistics
+R0207,ENG150,Academic Writing,English,zh,这门课的作业挺多，每周都要写论文，但时间安排还可以。助教解答问题也还算及时。,neutral,logistics
+R0208,CS420,Machine Learning,Computer Science,en,"The machine learning content was super engaging. Homework was challenging but fair, and the projects were a blast to work on. TA was really helpful!",positive,course_content
+R0209,CS201,Data Structures,Computer Science,zh,这学期的数据结构考试评分太宽松了，感觉老师给分很松，作业又那么多，助教水平也一般，感觉不公平。,negative,exams_grading
+R0210,CS310,Operating Systems,Computer Science,zh,操作系统课程内容丰富，深入浅出，作业量适中，考试难度适中，助教很耐心，学到了很多实用知识。,positive,course_content
+R0211,CS201,Data Structures,Computer Science,en,"The workload is a bit heavy with weekly homework and two midterms, but the TAs are pretty helpful. Just wish there were more office hours.",neutral,logistics
+R0212,CS310,Operating Systems,Computer Science,zh,老师讲课太枯燥了，讲义内容太多，作业量也大，助教也不太懂，感觉学不到什么。,negative,teaching_style
+R0213,CS330,Database Systems,Computer Science,en,"Prof. Johnson is a great instructor. They explain concepts clearly and make office hours accessible, even when the homework load is high.",positive,instructor
+R0214,CS310,Operating Systems,Computer Science,en,"The workload was pretty consistent, with a mix of weekly readings and assignments, but the final project was a beast. The TA was helpful, though sometimes the office hours were packed.",neutral,workload
+R0215,CS201,Data Structures,Computer Science,en,"The textbooks were really helpful, and the online resources were well-organized. The TA was also super responsive to questions about the homework problems.",positive,materials
+R0216,CS330,Database Systems,Computer Science,en,"OMG, the Database Systems course is a killer. Homework every single week and the midterm was a beast! The TA didn't help much either. I'm drowning here.",negative,workload
+R0217,CS310,Operating Systems,Computer Science,en,"The exams were challenging, but the grading seemed fair. TA's were helpful with the tough concepts.",neutral,exams_grading
+R0218,MATH240,Linear Algebra,Mathematics,zh,这门课的作业太多，而且助教答疑不积极，考试难度也不低，感觉挺折腾人的。,negative,logistics
+R0219,CS420,Machine Learning,Computer Science,zh,这门机器学习的课作业挺多，但我觉得挺有挑战性的。考试也不容易，但是助教很用心，解答问题很及时。,positive,workload
+R0220,ENG150,Academic Writing,English,en,"The class schedule was super convenient, and the TA was always available for help. Never had to wait for office hours.",positive,logistics
+R0221,MATH240,Linear Algebra,Mathematics,en,"The schedule was manageable, and the TA was always available to help with homework. Exams were fair, and the workload was just right.",positive,logistics
+R0222,MATH240,Linear Algebra,Mathematics,zh,这次期中考试太难了，感觉题目都超出了课本内容，而且助教批改作业太宽松了，导致大家都不重视作业，最后成绩出来一看，差距太大，感觉不太公平。,negative,exams_grading
+R0223,ENG150,Academic Writing,English,zh,这门课的安排很合理，作业量和考试难度适中，助教也很耐心，每次答疑都很及时。,positive,logistics
+R0224,CS330,Database Systems,Computer Science,en,"The workload was just overwhelming, constant homework with no help from the TA's and the exams were a nightmare. It felt like we were expected to be grad students, not undergrads.",negative,workload
+R0225,PHY101,General Physics I,Physics,zh,教材内容深奥，作业量大，助教讲解也不清楚，感觉很难跟上课程进度。,negative,materials
+R0226,CS330,Database Systems,Computer Science,en,"Professor Smith's lectures were clear, but the homework load was pretty intense. TA help sessions were hit or miss.",neutral,instructor
+R0227,ENG150,Academic Writing,English,en,"Professor Smith's teaching style is so engaging! The way they break down complex concepts into easy-to-understand lessons is awesome. Their enthusiasm for the subject really rubs off on the class, even during those intense writing workshops.",positive,teaching_style
+R0228,MATH240,Linear Algebra,Mathematics,en,"The constant homework load and last-minute exam prep left me feeling overwhelmed. TA's were inconsistent, and office hours were scarce.",negative,logistics
+R0229,CS420,Machine Learning,Computer Science,en,The exams were super tough and the grading felt inconsistent. My TA's feedback was barely helpful.,negative,exams_grading
+R0230,ENG150,Academic Writing,English,en,"Homework piles up and exams are a nightmare, TAs don't even reply to emails. Can't keep up with the pace.",negative,logistics
+R0231,ENG150,Academic Writing,English,en,"The readings were out of date, and the homework was endless. The TA was unhelpful too, didn't make things any easier.",negative,materials
+R0232,CS420,Machine Learning,Computer Science,en,The course schedule was a mess and the TA's office hours were always canceled. I barely got any help with the intense homework and exams.,negative,logistics
+R0233,MATH240,Linear Algebra,Mathematics,en,"The book 'Linear Algebra and Its Applications' is super helpful. The homework problems are just the right level of challenging, and the TA is always there to help.",positive,materials
+R0234,MATH240,Linear Algebra,Mathematics,en,"Homework was a monster each week, and exams were a nightmare. TA's didn't help much. Time-consuming and frustrating.",negative,workload
+R0235,BUS220,Introduction to Marketing,Business,en,"The logistics were a mess. Homework piles up every week, and the TA's are always unavailable for help. Exams are a nightmare with unclear guidelines.",negative,logistics
+R0236,PHY101,General Physics I,Physics,en,The schedule was a bit tight; I found myself overwhelmed with the homework and studying for exams at the same time.,neutral,logistics
+R0237,CS310,Operating Systems,Computer Science,zh,这门操作系统的课，作业量适中，难度不大，助教很耐心，总体感觉挺轻松的。,positive,workload
+R0238,ENG150,Academic Writing,English,en,"The professor's teaching style was a bit dry but clear, and the TA was pretty responsive to our questions despite the heavy homework load.",neutral,teaching_style
+R0239,PHY101,General Physics I,Physics,en,The prof structured the course really well. Midterms were spaced out and TAs were quite helpful in office hours.,positive,logistics
+R0240,BUS220,Introduction to Marketing,Business,en,The readings were really well-chosen and gave me a solid foundation. The case studies were particularly helpful for understanding real-world applications.,positive,materials
+R0241,CS420,Machine Learning,Computer Science,zh,这门机器学习课内容很丰富，讲义和案例都很实用，感觉收获很多。作业量适中，难度也适合初学者。助教也很耐心，有问题都帮忙解答。,positive,course_content
+R0242,CS310,Operating Systems,Computer Science,zh,考试难度适中，评分公正，助教也很耐心解答问题，感觉学到了很多。,positive,exams_grading
+R0243,CS310,Operating Systems,Computer Science,en,"The constant stream of homework and the intense exams are overwhelming, and the TA's aren't always helpful. It's like trying to juggle multiple jobs full-time.",negative,workload
+R0244,MATH240,Linear Algebra,Mathematics,zh,老师讲课像念书，完全不理解学生的需求，作业和考试难度都太高了，助教也不太会解答问题。,negative,teaching_style
+R0245,CS310,Operating Systems,Computer Science,en,"The content was super comprehensive, covering everything from basics to advanced topics. The weekly assignments were a bit challenging but they really helped me understand the material.",positive,course_content
+R0246,CS330,Database Systems,Computer Science,zh,数据库课太忙了，作业多得让人喘不过气，考试也难，助教还不太负责任，真是折磨人！,negative,logistics
+R0247,CS330,Database Systems,Computer Science,en,"Professor Smith's lectures were confusing, and the TA was never available for help. I barely passed the final.",negative,instructor
+R0248,PHY101,General Physics I,Physics,zh,这门物理课时间安排挺合理的，作业不算多，考试难度适中，助教解答问题很耐心。,positive,logistics
+R0249,MATH240,Linear Algebra,Mathematics,en,"The exams were fair, and the TA was really helpful in explaining the grading rubric. I felt like my effort was recognized.",positive,exams_grading
+R0250,CS330,Database Systems,Computer Science,en,"Absolutely swamped with the constant homework and unclear assignment instructions. TAs barely available for help, felt lost halfway through the course.",negative,logistics
+R0251,CS330,Database Systems,Computer Science,zh,数据库系统的作业太多，每周都要写几千行代码，考试还特别难，助教也不太清楚怎么解答问题。,negative,workload
+R0252,CS420,Machine Learning,Computer Science,en,"The exams were challenging but fair, and the TAs were always helpful. I didn't feel overwhelmed with the grading process.",positive,exams_grading
+R0253,CS330,Database Systems,Computer Science,en,"The course material covered a lot of ground, but the pace was a bit too fast for me, and the homework questions were sometimes unclear.",neutral,course_content
+R0254,CS330,Database Systems,Computer Science,en,The exam format was clear and the grading was fair; the TA was super helpful with the review sessions.,positive,exams_grading
+R0255,MATH240,Linear Algebra,Mathematics,zh,考试挺多的，评分挺合理的，作业量适中，助教解答问题挺耐心。,neutral,exams_grading
+R0256,CS420,Machine Learning,Computer Science,en,"The workload was intense but manageable; the weekly assignments were a good mix of challenging and informative. TAs were really helpful, always available for clarifications.",positive,workload
+R0257,ENG150,Academic Writing,English,en,"The handouts on academic sources were super helpful, and the sample essays really gave me a sense of what to aim for.",positive,materials
+R0258,PHY101,General Physics I,Physics,en,The textbook was clear and the online resources were super helpful. The problem sets were challenging but the solutions were well-explained.,positive,materials
+R0259,CS310,Operating Systems,Computer Science,zh,这门课的安排挺合理的，作业量适中，考试难度不算大。助教都很认真负责，有问题随时都能找他们解答。,positive,logistics
+R0260,CS330,Database Systems,Computer Science,en,"Professor Smith’s lectures are super engaging. She breaks down complex concepts with relatable examples and the TAs are really helpful, even with the heavy homework load.",positive,teaching_style
+R0261,CS201,Data Structures,Computer Science,en,"The Data Structures course was really insightful. The material covered both theory and practical coding, and the homework assignments were challenging but manageable. The TA was helpful in explaining complex topics during office hours.",positive,course_content
+R0262,MATH240,Linear Algebra,Mathematics,en,Dr. Thompson's teaching style made the course less intimidating; he explained complex concepts clearly and made class engaging with real-world examples.,positive,teaching_style
+R0263,MATH240,Linear Algebra,Mathematics,zh,老师讲课条理清晰，深入浅出，每次课都安排了作业，量不算多，但质量挺高，助教也很热心。,positive,instructor
+R0264,BUS220,Introduction to Marketing,Business,en,"Professor Smith's lectures were informative, but the pacing felt a bit off. Sometimes the TA was helpful, other times I felt lost.",neutral,teaching_style
+R0265,ENG150,Academic Writing,English,en,"The assignments forced me to think critically and improve my structure. TA was really helpful, always gave detailed feedback.",positive,course_content
+R0266,MATH240,Linear Algebra,Mathematics,en,The workload is intense; I spent at least 15 hours a week on homework and studying for exams. The TA is helpful but sometimes busy.,neutral,workload
+R0267,ENG150,Academic Writing,English,en,"The homework load was absurd, exams were a nightmare, and the TA was almost never available. I barely had time for anything else.",negative,workload
+R0268,CS310,Operating Systems,Computer Science,en,"The exams were challenging but fair, and the TAs were super helpful in explaining the grading criteria. I felt like my hard work paid off!",positive,exams_grading
+R0269,CS420,Machine Learning,Computer Science,zh,老师讲课方式深入浅出，既有趣味性又实用性强。作业适量，助教也很认真负责，解答问题很耐心。,positive,teaching_style
+R0270,PHY101,General Physics I,Physics,zh,老师发的讲义很详细，每次作业都有详细的解答，感觉学到了很多物理知识。,positive,materials
+R0271,CS201,Data Structures,Computer Science,en,"Professor Smith is clear in lectures but the homework load can be intense. TAs are helpful, though grading can be inconsistent.",neutral,instructor
+R0272,CS420,Machine Learning,Computer Science,zh,这门课时间安排挺合理的，作业量适中，助教也都很耐心。,positive,logistics
+R0273,CS201,Data Structures,Computer Science,en,"The homework load was pretty heavy, but it really helped me understand the concepts. TAs were always there to help.",positive,workload
+R0274,CS420,Machine Learning,Computer Science,zh,这门机器学习课内容丰富，案例生动，作业量和考试难度适中，助教解答问题很耐心。,positive,course_content
+R0275,MATH240,Linear Algebra,Mathematics,en,"Dr. Smith's explanations were crystal clear, made the proofs less intimidating, and the TA was always helpful with the heavy homework load.",positive,instructor
+R0276,CS330,Database Systems,Computer Science,en,The workload is consistent but the TA's office hours can be a bit hit or miss.,neutral,logistics
+R0277,BUS220,Introduction to Marketing,Business,en,"The case studies were super practical and helped me connect marketing theory to real-world situations. Plus, the online resource library was a game-changer for keeping up with the readings between classes.",positive,materials
+R0278,ENG150,Academic Writing,English,en,The workload for homework is pretty heavy and exams are tough. TAs sometimes have a tough time explaining. Just hope it gets less busy as the semester goes on.,neutral,logistics
+R0279,PHY101,General Physics I,Physics,en,"The course content was comprehensive, but the homework load was a bit heavy. The exams were challenging, but the TA was helpful when I needed it.",neutral,course_content
+R0280,BUS220,Introduction to Marketing,Business,en,"The homework load was relentless, exams were a nightmare, and the TA was barely available for help. This course was a massive time suck.",negative,workload
+R0281,CS310,Operating Systems,Computer Science,en,The readings were outdated and confusing. The homework was too dense and the exams were unnecessarily difficult.,negative,materials
+R0282,CS330,Database Systems,Computer Science,en,"Dr. Smith is a fantastic instructor, always clear in class and really knows the material. The weekly homework is a bit challenging but it really solidifies the concepts.",positive,instructor
+R0283,ENG150,Academic Writing,English,en,"The readings were informative but the homework was overwhelming at times, and the TA seemed unprepared for our questions.",neutral,materials
+R0284,CS201,Data Structures,Computer Science,zh,这门课的作业挺多的，考试难度适中，助教答疑也还算及时，就是课程安排有点紧凑，希望下次能更合理分配时间。,neutral,logistics
+R0285,CS310,Operating Systems,Computer Science,zh,考试难度适中，评分公正，助教很耐心，感觉学到了很多。,positive,exams_grading
+R0286,CS420,Machine Learning,Computer Science,en,"Prof. Smith's engaging lectures and interactive workshops made machine learning concepts click. The TA's were super helpful during office hours, even with the heavy homework load.",positive,teaching_style
+R0287,BUS220,Introduction to Marketing,Business,zh,考试挺有挑战性的，但是助教批改很认真，给分挺合理的，感觉学到了不少东西。,positive,exams_grading
+R0288,CS310,Operating Systems,Computer Science,en,"The instructor is knowledgeable but sometimes hard to understand. They assign a decent amount of homework and the exams are challenging, but the TAs are helpful enough.",neutral,instructor
+R0289,MATH240,Linear Algebra,Mathematics,zh,这门课的作业挺多的，但是时间安排得挺合理的，助教也很有耐心，答疑很及时。,positive,logistics
+R0290,BUS220,Introduction to Marketing,Business,en,"The exams were well-structured, and the TA was really helpful in explaining grading rubrics. It made understanding the feedback easier than other courses.",positive,exams_grading
+R0291,CS201,Data Structures,Computer Science,en,"The workload was intense, with constant homework and a tough final exam. The TA was also unhelpful, making it hard to keep up.",negative,workload
+R0292,ENG150,Academic Writing,English,zh,老师上课挺平实的，PPT也做得挺清晰的，但感觉批改作业有点严，有时候有点难跟上节奏。,neutral,teaching_style
+R0293,CS310,Operating Systems,Computer Science,en,Dr. Smith's passion for the subject really brought the material to life. He was always approachable and gave insightful feedback on our assignments.,positive,instructor
+R0294,MATH240,Linear Algebra,Mathematics,en,Dr. Thompson's teaching style really clicked with me. She made complex concepts feel manageable with her clear explanations and examples.,positive,teaching_style
+R0295,CS201,Data Structures,Computer Science,zh,老师讲得非常清晰，每次上课都能让我对数据结构有更深入的理解。作业量和考试难度适中，助教也很耐心，解答问题总是能让人满意。,positive,teaching_style
+R0296,PHY101,General Physics I,Physics,en,The instructor was knowledgeable but sometimes went too fast. The TA's grading was inconsistent.,neutral,instructor
+R0297,CS310,Operating Systems,Computer Science,zh,这门课的作业量太大了，考试又特别难，助教水平也不行，每次答疑都找不到方向。,negative,logistics
+R0298,CS310,Operating Systems,Computer Science,zh,操作系统课，老师讲课太枯燥了，PPT上全是代码，根本看不懂。作业又多，助教也不太友好，感觉学不到什么。,negative,teaching_style
+R0299,MATH240,Linear Algebra,Mathematics,en,The homework load was challenging but manageable. I appreciate the TA's support sessions and the clear exams.,positive,workload
+R0300,CS420,Machine Learning,Computer Science,en,The constant stream of assignments and exams was overwhelming. TAs were often unavailable for help sessions.,negative,logistics
