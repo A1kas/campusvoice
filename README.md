@@ -56,10 +56,9 @@ pip install -r requirements.txt
 ```
 
 ### 2. Configure your API key
-
+You may creat a file named .env
 ```bash
-cp .env.example .env
-# edit .env, paste your GLM key
+ZHIPUAI_API_KEY=your_glm_api_key_here
 ```
 
 Get a key at [open.bigmodel.cn](https://open.bigmodel.cn/). GLM-4-Flash is free.
