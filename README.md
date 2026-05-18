@@ -14,7 +14,7 @@ latency per review.
 
 Feed in a CSV of anonymous student course reviews. Out comes:
 
-- **Sentiment classification** — positive / neutral / negative, with confidence
+- **Sentiment classification** — positive / neutral / negative, with more confidence
 - **Aspect-based tagging** — which part of the course is being discussed
   (teaching style, workload, materials, exams, instructor, logistics)
 - **Keyword extraction** — the phrases students actually use
